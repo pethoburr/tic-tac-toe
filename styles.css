@@ -76,8 +76,8 @@ footer {
 .gameboard.x .square:not(.x):not(.circle):hover::after {
     content: '';
     position: absolute;
-    width: .25rem;
-    height: 2.5em;
+    width: .5rem;
+    height: 5em;
     background-color: black;
 }
 
@@ -103,15 +103,15 @@ footer {
 
 .square.circle::before,
 .gameboard.circle .square:not(.x):not(.circle):hover::before {
-    width: 2rem;
-    height: 2.5rem;
+    width: 4rem;
+    height: 5rem;
     background-color: black;
 }
 
 .square.circle::after,
 .gameboard.circle .square:not(.x):not(.circle):hover::after {
-    width: 1.5rem;
-    height: 1.75rem;
+    width: 3rem;
+    height: 3.5rem;
     background-color: white;
 }
 
@@ -122,8 +122,7 @@ footer {
 
 .gameboard.x .square:not(.x):not(.circle):hover:hover::before,
 .gameboard.x .square:not(.x):not(.circle):hover:hover::after,
-.gameboard.circle .square:not(.x):not(.circle):hover:hover::before,
-.gameboard.circle .square:not(.x):not(.circle):hover:hover::after {
+.gameboard.circle .square:not(.x):not(.circle):hover:hover::before {
     background-color: lightgrey;
 }
 
