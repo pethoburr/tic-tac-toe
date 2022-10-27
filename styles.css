@@ -31,8 +31,8 @@ h1, h3 {
 .gameboard {
     place-self: center;
     display: grid;
-    grid-template-columns: minmax(100px, auto) minmax(100px, auto) minmax(100px, auto);
-    grid-template-rows: minmax(100px, auto) minmax(100px, auto) minmax(100px, auto);
+    grid-template-columns: minmax(200px, auto) minmax(200px, auto) minmax(200px, auto);
+    grid-template-rows: minmax(200px, auto) minmax(200px, auto) minmax(200px, auto);
 }
 
 .square {
